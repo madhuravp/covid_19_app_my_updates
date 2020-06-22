@@ -1,8 +1,8 @@
 {
   "name": "covid_19_app",
   "version": "0.1.0",
-  "engines":{
-    "node":"12.16.1"
+  "engines": {
+    "node": "12.16.1"
   },
   "private": true,
   "dependencies": {
@@ -22,12 +22,15 @@
     "react-csv": "^2.0.3",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
-    "react-table": "^7.2.0"
+    "react-table": "^7.2.0",
+    "serve": "^11.3.2"
   },
   "scripts": {
     "dev": "react-scripts start",
     "start": "serve -s build",
     "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
     "heroku-postbuild": "npm run build"
   },
   "eslintConfig": {
