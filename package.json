@@ -1,6 +1,9 @@
 {
   "name": "covid_19_app",
   "version": "0.1.0",
+  "engines":{
+    "node":"12.16.1"
+  },
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.10.0",
