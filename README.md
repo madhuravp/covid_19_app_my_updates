@@ -1,3 +1,13 @@
+Inspired by this project: 
+https://github.com/adrianhajdin/project_corona_tracker
+
+API used:
+https://documenter.getpostman.com/view/8854915/SzS8rjHv?version=latest#72fa1e45-55fb-467b-909a-4040791bf9a7
+https://covidtracking.com/api/states
+http://covidtracking.com/api/us
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
